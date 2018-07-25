@@ -1,0 +1,13 @@
+.form-control {
+  border-width: 1px;
+  // box-shadow: $theme-shadow-0;
+  border-width: 2px;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+label {
+  font-size: 13px;
+}
