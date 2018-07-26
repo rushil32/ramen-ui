@@ -1,12 +1,11 @@
 {
-  "name": "aikido-ui",
+  "name": "ramen-ui",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass --watch theme/theme.scss:css/theme.css",
-    "build": "sass theme/theme.scss css/theme.css",
-    "start": "node index.js"
+    "build": "sass theme/theme.scss css/theme.css"
   },
   "author": "",
   "license": "ISC",
