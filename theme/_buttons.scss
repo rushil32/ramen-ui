@@ -16,3 +16,15 @@
     }
   }
 }
+
+@each $color, $value in $theme-colors {
+  .btn.btn-outline-#{$color} {
+    box-shadow: none;
+    border: 1px solid $value;
+
+    &:hover {
+      box-shadow: none;
+      background-color: $value;
+    }
+  }
+}

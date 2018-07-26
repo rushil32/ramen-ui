@@ -1,7 +1,6 @@
 .form-control {
   border-width: 1px;
-  // box-shadow: $theme-shadow-0;
-  border-width: 2px;
+  box-shadow: $theme-shadow-0;
 
   &:focus {
     box-shadow: none;
